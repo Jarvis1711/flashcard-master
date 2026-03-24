@@ -1,0 +1,22 @@
+GET /api/health response:
+{"status":"ok","app":"Flashcard Master"}
+
+POST /api/items response:
+{
+    "id": 1,
+    "title": "Demo item",
+    "details": "Created from PoC command",
+    "status": "active",
+    "created_at": "2026-03-24T15:35:11.628147+00:00"
+}
+
+GET /api/items response:
+[
+    {
+        "id": 1,
+        "title": "Demo item",
+        "details": "Created from PoC command",
+        "status": "active",
+        "created_at": "2026-03-24T15:35:11.628151+00:00"
+    }
+]
